@@ -1,0 +1,52 @@
+body {
+    background-color: #FFB38E;
+    color: #DE8F5F;
+    text-align: center;
+    font-size: 20px;;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+div {
+    width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    width: auto;
+    border: #DE8F5F 5px solid;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+li {
+    text-align: left;
+}
+
+h1, h2, h3  {
+    font-family: 'Great Vibes', cursive;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #DE8F5F;
+}
+
+.container.recipe:hover, .container.home:hover {
+    filter: brightness(80%);
+}
+
+.container {
+    background-color: #FFCF9D;
+    border: #DE8F5F 5px solid;
+    border-radius: 10px;
+    width: 440px;
+    padding: 5px;
+    margin: 10px auto;
+    width: 85%;
+}
+
