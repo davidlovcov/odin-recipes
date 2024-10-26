@@ -1,9 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #FFB38E;
     color: #DE8F5F;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-weight: bold;
+    margin: 0;
 }
 
 div {
@@ -52,10 +57,6 @@ a {
     color: #DE8F5F;
 }
 
-.container.recipe:hover, .container.home:hover {
-    filter: brightness(80%);
-}
-
 .container {
     background-color: #FFCF9D;
     border: #DE8F5F 5px solid;
@@ -66,3 +67,21 @@ a {
     width: 85%;
 }
 
+.container.recipe:hover, .container.home:hover {
+    filter: brightness(80%);
+}
+
+@media only screen and (max-width: 1000px) {
+    div {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
